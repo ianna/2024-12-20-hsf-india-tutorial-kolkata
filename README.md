@@ -4,3 +4,14 @@
 
 This may take 30 seconds to 2 minutes - no need to click multiple times (in fact that can push the system into a bad state)
 
+Take a quiz:
+
+```
+pip install jupyterquiz
+```
+```python
+from jupyterquiz import display_quiz
+
+git_path="https://raw.githubusercontent.com/ianna/2024-12-20-hsf-india-tutorial-kolkata/refs/heads/main/data/"
+display_quiz(git_path+"scientific_python_quiz.json")
+```
