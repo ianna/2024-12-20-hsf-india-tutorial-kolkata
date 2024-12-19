@@ -1,0 +1,219 @@
+[
+    {
+        "question": "Which Python library is commonly used for GPU-accelerated computing?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "NumPy",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "Pandas",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "CuPy",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Matplotlib",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "Live snakes via Python",
+                "correct": false,
+                "feedback": "I hope not."
+            }
+        ]
+    },
+    {
+        "question": "Which Python library is used for deep learning with GPU support?",
+        "type": "many_choice",
+        "answer_cols": 4,
+        "answers": [
+            {
+                "answer": "Scikit-learn",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "TensorFlow",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Beautiful Soup",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "OpenCV",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "Live snakes via Python",
+                "correct": false,
+                "feedback": "I hope not."
+            }
+        ]
+    },
+    {
+        "question": "What is the primary purpose of the NVIDIA CUDA Toolkit in the context of Python?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Web development",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "Image processing",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "GPU-accelerated computing",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Data analysis",
+                "correct": false,
+                "feedback": "False."
+            }
+        ]
+    },
+    {
+        "question": "Which of the following libraries integrates with NVIDIA CUDA for general-purpose GPU computing?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Pandas",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "Numba",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Requests",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "Seaborn",
+                "correct": false,
+                "feedback": "False."
+            }
+        ]
+    },
+    {
+        "question": "In PyTorch, which module is responsible for moving tensors to the GPU?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "`.cuda()`",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "`.to_device()`",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "`.gpu()`",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "`.device()`",
+                "correct": false,
+                "feedback": "False."
+            }
+        ]
+    },
+    {
+        "question": "Determine the output of the following Python code:",
+        "code": "a=\"1\"\nb=\"2\"\nprint(a+b)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "1",
+                "correct": false,
+                "feedback": "No. When strings are operated on by +, they are concatenated."
+            },
+            {
+                "answer": "2",
+                "correct": false,
+                "feedback": "No. When strings are operated on by +, they are concatenated."
+            },
+            {
+                "answer": "3",
+                "correct": false,
+                "feedback": "No. When strings are operated on by +, they are concatenated."
+            },
+            {
+                "answer": "12",
+                "correct": true,
+                "feedback": "Yes. The + operator will concatenate the strings \"1\" and \"2\"."
+            },
+            {
+                "answer": "error",
+                "correct": false,
+                "feedback": "No. The + operator for strings performs string concatenation."
+            }
+        ]
+    },
+    {
+        "question": "The variable mylist is a Python list. Choose which code snippet will append the item 3 to mylist.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "mylist+=3",
+                "correct": false
+            },
+            {
+                "code": "mylist+=[3]",
+                "correct": true
+            },
+            {
+                "code": "mylist+={3}",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of these is the ratio of a circle's circumference to its diameter?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "$\\pi$",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "$\\frac{22}{7}$",
+                "correct": false,
+                "feedback": "$\\frac{22}{7}$ is only an approximation to the true value."
+            },
+            {
+                "answer": "3",
+                "correct": false,
+                "feedback": "This is a crude approximation to the true value."
+            },
+            {
+                "answer": "$\\tau$",
+                "correct": false,
+                "feedback": "True for the ratio of the circle's circumference to its radius, not diameter."
+            }
+        ]
+    }
+]
